@@ -11,3 +11,25 @@
     color: #222;
     font-family: Roboto, sans-serif;
 }
+
+#interface{
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    height: 100vh;
+    width: 100vw;
+    background: #fafafa;
+}
+
+#interface .cabecalho{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#interface .cabecalho h2{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+

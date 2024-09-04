@@ -13,6 +13,14 @@
     
 }
 
+#painel{
+    background-color: rgb(197, 197, 197);
+}
+
+#painel *{
+    text-align: end;
+}
+
 #interface {
     display: block;
     width: 100vw;

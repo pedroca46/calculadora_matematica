@@ -13,9 +13,7 @@
     
 }
 
-#painel{
-    background-color: rgb(197, 197, 197);
-}
+
 
 #painel *{
     text-align: end;
@@ -48,9 +46,38 @@
 }
     */
 
+
+
 #interface table {
     /*border: 1px solid black;*/
     margin: 0 auto;
+    padding: .5rem;
+    border-radius: .25rem;
+    border: 1px solid black;
+    background: #ccc;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+}
+
+#interface table #painel{
+    display: block;
+    background-color: #333;
+}
+
+#interface table 
+#painel #txt_operadores{
+    display: block;
+}
+
+#interface table
+#painel #txt_display{
+    background-color: transparent;
+    border: 0
+}
+
+#interface table
+#painel #txt_display:focus-visible{
+    outline: none;
+    background-color: transparent;
 }
 
 #interface table button {

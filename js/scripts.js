@@ -1,14 +1,9 @@
 $(document).ready(function() {
     
-    var nr_c = "";
-
-    $('.bt-calc').click(function() {
+    $('.bt-calc').click(function(){
+        var bt_nr = $(this).text();
+        $('#txt_display').val(bt_nr)
     
-        var nr = $(this).text();
-
-        nr_c = nr_c.concat(nr);
-
-        $('#txt_display').text(nr_c);
-    })
+   })
 
 });

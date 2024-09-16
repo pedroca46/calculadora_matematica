@@ -13,7 +13,6 @@ $(document).ready(function() {
             bt_nr = bt_nr.concat(n);
         }
 
-        bt_nr = bt_nr.concat(n);
         $('#txt_display').val(bt_nr);
     })
 });

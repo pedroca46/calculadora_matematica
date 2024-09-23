@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('.bt-calc').click(function() {
         var n = $(this).text()
 
-        if (n == '0' || nr == '00') {
+        if (n == '0' || n == '00') {
             alert('1')
             if (bt_nr.length > 0) {
                 bt_nr = bt_nr.concat(n);
